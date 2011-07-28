@@ -8,6 +8,7 @@
 
 #import "RootViewController.h"
 #import "Assignments.h"
+#import "AssignmentViewController.h"
 
 @implementation RootViewController
 
@@ -116,13 +117,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    /*
-    <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-    // ...
-    // Pass the selected object to the new view controller.
+    AssignmentViewController *detailViewController = [[AssignmentViewController alloc] initWithNibName:@"AssignmentViewController" bundle:nil];
+    detailViewController.assignmentNumber = [self.assignments assignmentAtIndex:indexPath.row];
     [self.navigationController pushViewController:detailViewController animated:YES];
     [detailViewController release];
-	*/
 }
 
 - (void)didReceiveMemoryWarning
