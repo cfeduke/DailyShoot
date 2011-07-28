@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67D1817913E1B9A100DEFE0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D1817813E1B9A100DEFE0D /* UIKit.framework */; };
+		67D1817B13E1B9A100DEFE0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D1817A13E1B9A100DEFE0D /* Foundation.framework */; };
+		67D1817D13E1B9A100DEFE0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D1817C13E1B9A100DEFE0D /* CoreGraphics.framework */; };
+		67D1818313E1B9A100DEFE0D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67D1818113E1B9A100DEFE0D /* InfoPlist.strings */; };
+		67D1818513E1B9A100DEFE0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D1818413E1B9A100DEFE0D /* main.m */; };
+		67D1818913E1B9A100DEFE0D /* DailyShootAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D1818813E1B9A100DEFE0D /* DailyShootAppDelegate.m */; };
+		67D1818C13E1B9A100DEFE0D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D1818A13E1B9A100DEFE0D /* MainWindow.xib */; };
+		67D1818F13E1B9A100DEFE0D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D1818E13E1B9A100DEFE0D /* RootViewController.m */; };
+		67D1819213E1B9A100DEFE0D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D1819013E1B9A100DEFE0D /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67D1817413E1B9A100DEFE0D /* DailyShoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyShoot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D1817813E1B9A100DEFE0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		67D1817A13E1B9A100DEFE0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		67D1817C13E1B9A100DEFE0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		67D1818013E1B9A100DEFE0D /* DailyShoot-Info.plist */ = {isa = PBXFileReference; path = "DailyShoot-Info.plist"; sourceTree = "<group>"; };
+		67D1818213E1B9A100DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		67D1818413E1B9A100DEFE0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67D1818613E1B9A100DEFE0D /* DailyShoot-Prefix.pch */ = {isa = PBXFileReference; path = "DailyShoot-Prefix.pch"; sourceTree = "<group>"; };
+		67D1818713E1B9A100DEFE0D /* DailyShootAppDelegate.h */ = {isa = PBXFileReference; path = DailyShootAppDelegate.h; sourceTree = "<group>"; };
+		67D1818813E1B9A100DEFE0D /* DailyShootAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyShootAppDelegate.m; sourceTree = "<group>"; };
+		67D1818B13E1B9A100DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		67D1818D13E1B9A100DEFE0D /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		67D1818E13E1B9A100DEFE0D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		67D1819113E1B9A100DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67D1817113E1B9A100DEFE0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D1817913E1B9A100DEFE0D /* UIKit.framework in Frameworks */,
+				67D1817B13E1B9A100DEFE0D /* Foundation.framework in Frameworks */,
+				67D1817D13E1B9A100DEFE0D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67D1816913E1B9A100DEFE0D = {
+			isa = PBXGroup;
+			children = (
+				67D1817E13E1B9A100DEFE0D /* DailyShoot */,
+				67D1817713E1B9A100DEFE0D /* Frameworks */,
+				67D1817513E1B9A100DEFE0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67D1817513E1B9A100DEFE0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67D1817413E1B9A100DEFE0D /* DailyShoot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67D1817713E1B9A100DEFE0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67D1817813E1B9A100DEFE0D /* UIKit.framework */,
+				67D1817A13E1B9A100DEFE0D /* Foundation.framework */,
+				67D1817C13E1B9A100DEFE0D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		67D1817E13E1B9A100DEFE0D /* DailyShoot */ = {
+			isa = PBXGroup;
+			children = (
+				67D1818713E1B9A100DEFE0D /* DailyShootAppDelegate.h */,
+				67D1818813E1B9A100DEFE0D /* DailyShootAppDelegate.m */,
+				67D1818A13E1B9A100DEFE0D /* MainWindow.xib */,
+				67D1818D13E1B9A100DEFE0D /* RootViewController.h */,
+				67D1818E13E1B9A100DEFE0D /* RootViewController.m */,
+				67D1819013E1B9A100DEFE0D /* RootViewController.xib */,
+				67D1817F13E1B9A100DEFE0D /* Supporting Files */,
+			);
+			path = DailyShoot;
+			sourceTree = "<group>";
+		};
+		67D1817F13E1B9A100DEFE0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67D1818013E1B9A100DEFE0D /* DailyShoot-Info.plist */,
+				67D1818113E1B9A100DEFE0D /* InfoPlist.strings */,
+				67D1818413E1B9A100DEFE0D /* main.m */,
+				67D1818613E1B9A100DEFE0D /* DailyShoot-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67D1817313E1B9A100DEFE0D /* DailyShoot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D1819513E1B9A100DEFE0D /* Build configuration list for PBXNativeTarget "DailyShoot" */;
+			buildPhases = (
+				67D1817013E1B9A100DEFE0D /* Sources */,
+				67D1817113E1B9A100DEFE0D /* Frameworks */,
+				67D1817213E1B9A100DEFE0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyShoot;
+			productName = DailyShoot;
+			productReference = 67D1817413E1B9A100DEFE0D /* DailyShoot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67D1816B13E1B9A100DEFE0D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 67D1816E13E1B9A100DEFE0D /* Build configuration list for PBXProject "DailyShoot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 67D1816913E1B9A100DEFE0D;
+			productRefGroup = 67D1817513E1B9A100DEFE0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67D1817313E1B9A100DEFE0D /* DailyShoot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67D1817213E1B9A100DEFE0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D1818313E1B9A100DEFE0D /* InfoPlist.strings in Resources */,
+				67D1818C13E1B9A100DEFE0D /* MainWindow.xib in Resources */,
+				67D1819213E1B9A100DEFE0D /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67D1817013E1B9A100DEFE0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D1818513E1B9A100DEFE0D /* main.m in Sources */,
+				67D1818913E1B9A100DEFE0D /* DailyShootAppDelegate.m in Sources */,
+				67D1818F13E1B9A100DEFE0D /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		67D1818113E1B9A100DEFE0D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67D1818213E1B9A100DEFE0D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		67D1818A13E1B9A100DEFE0D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67D1818B13E1B9A100DEFE0D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		67D1819013E1B9A100DEFE0D /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67D1819113E1B9A100DEFE0D /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67D1819313E1B9A100DEFE0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		67D1819413E1B9A100DEFE0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67D1819613E1B9A100DEFE0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DailyShoot/DailyShoot-Prefix.pch";
+				INFOPLIST_FILE = "DailyShoot/DailyShoot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		67D1819713E1B9A100DEFE0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DailyShoot/DailyShoot-Prefix.pch";
+				INFOPLIST_FILE = "DailyShoot/DailyShoot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67D1816E13E1B9A100DEFE0D /* Build configuration list for PBXProject "DailyShoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D1819313E1B9A100DEFE0D /* Debug */,
+				67D1819413E1B9A100DEFE0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D1819513E1B9A100DEFE0D /* Build configuration list for PBXNativeTarget "DailyShoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67D1819613E1B9A100DEFE0D /* Debug */,
+				67D1819713E1B9A100DEFE0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67D1816B13E1B9A100DEFE0D /* Project object */;
+}
