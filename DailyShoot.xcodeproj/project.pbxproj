@@ -16,6 +16,7 @@
 		67D1818C13E1B9A100DEFE0D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D1818A13E1B9A100DEFE0D /* MainWindow.xib */; };
 		67D1818F13E1B9A100DEFE0D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D1818E13E1B9A100DEFE0D /* RootViewController.m */; };
 		67D1819213E1B9A100DEFE0D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D1819013E1B9A100DEFE0D /* RootViewController.xib */; };
+		67D1819A13E1BAD700DEFE0D /* Assignments.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D1819913E1BAD700DEFE0D /* Assignments.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,18 @@
 		67D1817813E1B9A100DEFE0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67D1817A13E1B9A100DEFE0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		67D1817C13E1B9A100DEFE0D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		67D1818013E1B9A100DEFE0D /* DailyShoot-Info.plist */ = {isa = PBXFileReference; path = "DailyShoot-Info.plist"; sourceTree = "<group>"; };
+		67D1818013E1B9A100DEFE0D /* DailyShoot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DailyShoot-Info.plist"; sourceTree = "<group>"; };
 		67D1818213E1B9A100DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		67D1818413E1B9A100DEFE0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		67D1818613E1B9A100DEFE0D /* DailyShoot-Prefix.pch */ = {isa = PBXFileReference; path = "DailyShoot-Prefix.pch"; sourceTree = "<group>"; };
-		67D1818713E1B9A100DEFE0D /* DailyShootAppDelegate.h */ = {isa = PBXFileReference; path = DailyShootAppDelegate.h; sourceTree = "<group>"; };
+		67D1818613E1B9A100DEFE0D /* DailyShoot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DailyShoot-Prefix.pch"; sourceTree = "<group>"; };
+		67D1818713E1B9A100DEFE0D /* DailyShootAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DailyShootAppDelegate.h; sourceTree = "<group>"; };
 		67D1818813E1B9A100DEFE0D /* DailyShootAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DailyShootAppDelegate.m; sourceTree = "<group>"; };
 		67D1818B13E1B9A100DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		67D1818D13E1B9A100DEFE0D /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		67D1818D13E1B9A100DEFE0D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		67D1818E13E1B9A100DEFE0D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		67D1819113E1B9A100DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		67D1819813E1BAD700DEFE0D /* Assignments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignments.h; sourceTree = "<group>"; };
+		67D1819913E1BAD700DEFE0D /* Assignments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignments.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +55,8 @@
 		67D1816913E1B9A100DEFE0D = {
 			isa = PBXGroup;
 			children = (
+				67D1819813E1BAD700DEFE0D /* Assignments.h */,
+				67D1819913E1BAD700DEFE0D /* Assignments.m */,
 				67D1817E13E1B9A100DEFE0D /* DailyShoot */,
 				67D1817713E1B9A100DEFE0D /* Frameworks */,
 				67D1817513E1B9A100DEFE0D /* Products */,
@@ -164,6 +169,7 @@
 				67D1818513E1B9A100DEFE0D /* main.m in Sources */,
 				67D1818913E1B9A100DEFE0D /* DailyShootAppDelegate.m in Sources */,
 				67D1818F13E1B9A100DEFE0D /* RootViewController.m in Sources */,
+				67D1819A13E1BAD700DEFE0D /* Assignments.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
