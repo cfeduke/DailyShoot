@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Assignments : NSObject
-
+@interface Assignments : NSObject {
+    NSArray *assignmentArray;
+}
+-(NSUInteger) count;
+-(NSNumber *) assignmentAtIndex:(NSUInteger) index;
 @end

@@ -17,6 +17,8 @@
 		67D1818F13E1B9A100DEFE0D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D1818E13E1B9A100DEFE0D /* RootViewController.m */; };
 		67D1819213E1B9A100DEFE0D /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D1819013E1B9A100DEFE0D /* RootViewController.xib */; };
 		67D1819A13E1BAD700DEFE0D /* Assignments.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D1819913E1BAD700DEFE0D /* Assignments.m */; };
+		67D1819E13E1BF9C00DEFE0D /* AssignmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D1819C13E1BF9C00DEFE0D /* AssignmentViewController.m */; };
+		67D1819F13E1BF9C00DEFE0D /* AssignmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67D1819D13E1BF9C00DEFE0D /* AssignmentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +36,11 @@
 		67D1818D13E1B9A100DEFE0D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		67D1818E13E1B9A100DEFE0D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		67D1819113E1B9A100DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
-		67D1819813E1BAD700DEFE0D /* Assignments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assignments.h; sourceTree = "<group>"; };
-		67D1819913E1BAD700DEFE0D /* Assignments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assignments.m; sourceTree = "<group>"; };
+		67D1819813E1BAD700DEFE0D /* Assignments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Assignments.h; path = ../Assignments.h; sourceTree = "<group>"; };
+		67D1819913E1BAD700DEFE0D /* Assignments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Assignments.m; path = ../Assignments.m; sourceTree = "<group>"; };
+		67D1819B13E1BF9C00DEFE0D /* AssignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignmentViewController.h; sourceTree = "<group>"; };
+		67D1819C13E1BF9C00DEFE0D /* AssignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentViewController.m; sourceTree = "<group>"; };
+		67D1819D13E1BF9C00DEFE0D /* AssignmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AssignmentViewController.xib; path = DailyShoot/AssignmentViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +60,6 @@
 		67D1816913E1B9A100DEFE0D = {
 			isa = PBXGroup;
 			children = (
-				67D1819813E1BAD700DEFE0D /* Assignments.h */,
-				67D1819913E1BAD700DEFE0D /* Assignments.m */,
 				67D1817E13E1B9A100DEFE0D /* DailyShoot */,
 				67D1817713E1B9A100DEFE0D /* Frameworks */,
 				67D1817513E1B9A100DEFE0D /* Products */,
@@ -84,12 +87,15 @@
 		67D1817E13E1B9A100DEFE0D /* DailyShoot */ = {
 			isa = PBXGroup;
 			children = (
+				67D181A013E1BFB300DEFE0D /* Resources */,
+				67D1819813E1BAD700DEFE0D /* Assignments.h */,
+				67D1819913E1BAD700DEFE0D /* Assignments.m */,
 				67D1818713E1B9A100DEFE0D /* DailyShootAppDelegate.h */,
 				67D1818813E1B9A100DEFE0D /* DailyShootAppDelegate.m */,
-				67D1818A13E1B9A100DEFE0D /* MainWindow.xib */,
 				67D1818D13E1B9A100DEFE0D /* RootViewController.h */,
 				67D1818E13E1B9A100DEFE0D /* RootViewController.m */,
-				67D1819013E1B9A100DEFE0D /* RootViewController.xib */,
+				67D1819B13E1BF9C00DEFE0D /* AssignmentViewController.h */,
+				67D1819C13E1BF9C00DEFE0D /* AssignmentViewController.m */,
 				67D1817F13E1B9A100DEFE0D /* Supporting Files */,
 			);
 			path = DailyShoot;
@@ -104,6 +110,17 @@
 				67D1818613E1B9A100DEFE0D /* DailyShoot-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67D181A013E1BFB300DEFE0D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67D1818A13E1B9A100DEFE0D /* MainWindow.xib */,
+				67D1819D13E1BF9C00DEFE0D /* AssignmentViewController.xib */,
+				67D1819013E1B9A100DEFE0D /* RootViewController.xib */,
+			);
+			name = Resources;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +173,7 @@
 				67D1818313E1B9A100DEFE0D /* InfoPlist.strings in Resources */,
 				67D1818C13E1B9A100DEFE0D /* MainWindow.xib in Resources */,
 				67D1819213E1B9A100DEFE0D /* RootViewController.xib in Resources */,
+				67D1819F13E1BF9C00DEFE0D /* AssignmentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +188,7 @@
 				67D1818913E1B9A100DEFE0D /* DailyShootAppDelegate.m in Sources */,
 				67D1818F13E1B9A100DEFE0D /* RootViewController.m in Sources */,
 				67D1819A13E1BAD700DEFE0D /* Assignments.m in Sources */,
+				67D1819E13E1BF9C00DEFE0D /* AssignmentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +209,7 @@
 				67D1818B13E1B9A100DEFE0D /* en */,
 			);
 			name = MainWindow.xib;
+			path = DailyShoot;
 			sourceTree = "<group>";
 		};
 		67D1819013E1B9A100DEFE0D /* RootViewController.xib */ = {
@@ -198,6 +218,7 @@
 				67D1819113E1B9A100DEFE0D /* en */,
 			);
 			name = RootViewController.xib;
+			path = DailyShoot;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

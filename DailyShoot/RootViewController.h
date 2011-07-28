@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Assignments;
 
 @interface RootViewController : UITableViewController
 
+@property(nonatomic, retain) IBOutlet Assignments *assignments;
 @end

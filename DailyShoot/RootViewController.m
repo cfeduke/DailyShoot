@@ -7,13 +7,16 @@
 //
 
 #import "RootViewController.h"
+#import "Assignments.h"
 
 @implementation RootViewController
 
+@synthesize assignments;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.title = @"Assignments";
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -36,13 +39,12 @@
 	[super viewDidDisappear:animated];
 }
 
-/*
+
  // Override to allow orientations other than the default portrait orientation.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-	// Return YES for supported orientations.
-	return (interfaceOrientation == UIInterfaceOrientationPortrait);
+	return YES;
 }
- */
+
 
 // Customize the number of sections in the table view.
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -52,7 +54,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 0;
+    return [self.assignments count];
 }
 
 // Customize the appearance of table view cells.
@@ -63,7 +65,9 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
+    cell.textLabel.text = [[self.assignments assignmentAtIndex:indexPath.row] stringValue];
 
     // Configure the cell.
     return cell;
