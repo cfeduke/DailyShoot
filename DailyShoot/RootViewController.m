@@ -116,19 +116,6 @@
 }
 */
 
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-        self.assignmentVC.assignmentNumber = [self.assignments assignmentAtIndex:indexPath.row];
-        [self.assignmentVC loadSelectedPage];
-    } else {
-        AssignmentViewController *detailViewController = [[AssignmentViewController alloc] initWithNibName:@"AssignmentViewController" bundle:nil];
-        detailViewController.assignmentNumber = [self.assignments assignmentAtIndex:indexPath.row];
-        [self.navigationController pushViewController:detailViewController animated:YES];
-        [detailViewController release];
-    }
-}
-
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.

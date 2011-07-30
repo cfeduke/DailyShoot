@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		676E94C513E48A48006164C0 /* RootViewController_Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 676E94C413E48A48006164C0 /* RootViewController_Pad.m */; };
+		676E94C813E48AE0006164C0 /* RootViewController_Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 676E94C713E48AE0006164C0 /* RootViewController_Phone.m */; };
+		676E94CB13E48C06006164C0 /* DailyShootAppDelegate_Phone.m in Sources */ = {isa = PBXBuildFile; fileRef = 676E94CA13E48C06006164C0 /* DailyShootAppDelegate_Phone.m */; };
+		676E94CE13E48CA8006164C0 /* DailyShootAppDelegate_Pad.m in Sources */ = {isa = PBXBuildFile; fileRef = 676E94CD13E48CA8006164C0 /* DailyShootAppDelegate_Pad.m */; };
 		67D1817913E1B9A100DEFE0D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D1817813E1B9A100DEFE0D /* UIKit.framework */; };
 		67D1817B13E1B9A100DEFE0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D1817A13E1B9A100DEFE0D /* Foundation.framework */; };
 		67D1817D13E1B9A100DEFE0D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67D1817C13E1B9A100DEFE0D /* CoreGraphics.framework */; };
@@ -28,6 +32,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		676E94C313E48A48006164C0 /* RootViewController_Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController_Pad.h; sourceTree = "<group>"; };
+		676E94C413E48A48006164C0 /* RootViewController_Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController_Pad.m; sourceTree = "<group>"; };
+		676E94C613E48AE0006164C0 /* RootViewController_Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController_Phone.h; sourceTree = "<group>"; };
+		676E94C713E48AE0006164C0 /* RootViewController_Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController_Phone.m; sourceTree = "<group>"; };
+		676E94C913E48C06006164C0 /* DailyShootAppDelegate_Phone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyShootAppDelegate_Phone.h; sourceTree = "<group>"; };
+		676E94CA13E48C06006164C0 /* DailyShootAppDelegate_Phone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyShootAppDelegate_Phone.m; sourceTree = "<group>"; };
+		676E94CC13E48CA8006164C0 /* DailyShootAppDelegate_Pad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DailyShootAppDelegate_Pad.h; sourceTree = "<group>"; };
+		676E94CD13E48CA8006164C0 /* DailyShootAppDelegate_Pad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DailyShootAppDelegate_Pad.m; sourceTree = "<group>"; };
 		67D1817413E1B9A100DEFE0D /* DailyShoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyShoot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D1817813E1B9A100DEFE0D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		67D1817A13E1B9A100DEFE0D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -76,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				676E94C113E488EE006164C0 /* Resources */,
+				67D1818713E1B9A100DEFE0D /* DailyShootAppDelegate.h */,
+				67D1818813E1B9A100DEFE0D /* DailyShootAppDelegate.m */,
 				67D1819813E1BAD700DEFE0D /* Assignments.h */,
 				67D1819913E1BAD700DEFE0D /* Assignments.m */,
 				67D1818D13E1B9A100DEFE0D /* RootViewController.h */,
@@ -90,6 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				67D181A013E1BFB300DEFE0D /* Resources */,
+				676E94C613E48AE0006164C0 /* RootViewController_Phone.h */,
+				676E94C713E48AE0006164C0 /* RootViewController_Phone.m */,
+				676E94C913E48C06006164C0 /* DailyShootAppDelegate_Phone.h */,
+				676E94CA13E48C06006164C0 /* DailyShootAppDelegate_Phone.m */,
 			);
 			name = iPhone;
 			sourceTree = "<group>";
@@ -150,8 +168,6 @@
 				676E94C013E48885006164C0 /* iPhone */,
 				676E94BE13E48875006164C0 /* Shared */,
 				67D181C013E4669200DEFE0D /* iPad */,
-				67D1818713E1B9A100DEFE0D /* DailyShootAppDelegate.h */,
-				67D1818813E1B9A100DEFE0D /* DailyShootAppDelegate.m */,
 				67D1817F13E1B9A100DEFE0D /* Supporting Files */,
 			);
 			path = DailyShoot;
@@ -191,6 +207,10 @@
 			isa = PBXGroup;
 			children = (
 				676E94C213E489CC006164C0 /* Resources */,
+				676E94C313E48A48006164C0 /* RootViewController_Pad.h */,
+				676E94C413E48A48006164C0 /* RootViewController_Pad.m */,
+				676E94CC13E48CA8006164C0 /* DailyShootAppDelegate_Pad.h */,
+				676E94CD13E48CA8006164C0 /* DailyShootAppDelegate_Pad.m */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
@@ -267,6 +287,10 @@
 				67D1818F13E1B9A100DEFE0D /* RootViewController.m in Sources */,
 				67D1819A13E1BAD700DEFE0D /* Assignments.m in Sources */,
 				67D1819E13E1BF9C00DEFE0D /* AssignmentViewController.m in Sources */,
+				676E94C513E48A48006164C0 /* RootViewController_Pad.m in Sources */,
+				676E94C813E48AE0006164C0 /* RootViewController_Phone.m in Sources */,
+				676E94CB13E48C06006164C0 /* DailyShootAppDelegate_Phone.m in Sources */,
+				676E94CE13E48CA8006164C0 /* DailyShootAppDelegate_Pad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
