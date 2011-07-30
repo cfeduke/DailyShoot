@@ -108,6 +108,14 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		676E94C213E489CC006164C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67D181C113E4669300DEFE0D /* MainWindow-iPad.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		67D1816913E1B9A100DEFE0D = {
 			isa = PBXGroup;
 			children = (
@@ -182,7 +190,7 @@
 		67D181C013E4669200DEFE0D /* iPad */ = {
 			isa = PBXGroup;
 			children = (
-				67D181C113E4669300DEFE0D /* MainWindow-iPad.xib */,
+				676E94C213E489CC006164C0 /* Resources */,
 			);
 			name = iPad;
 			sourceTree = "<group>";
