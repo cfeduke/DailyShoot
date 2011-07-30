@@ -46,16 +46,16 @@
 		67D1819913E1BAD700DEFE0D /* Assignments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Assignments.m; path = ../Assignments.m; sourceTree = "<group>"; };
 		67D1819B13E1BF9C00DEFE0D /* AssignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignmentViewController.h; sourceTree = "<group>"; };
 		67D1819C13E1BF9C00DEFE0D /* AssignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentViewController.m; sourceTree = "<group>"; };
-		67D1819D13E1BF9C00DEFE0D /* AssignmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AssignmentViewController.xib; path = DailyShoot/AssignmentViewController.xib; sourceTree = "<group>"; };
+		67D1819D13E1BF9C00DEFE0D /* AssignmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AssignmentViewController.xib; sourceTree = "<group>"; };
 		67D181B913E4663700DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Resources-iPad/DailyShoot/en.lproj/MainWindow.xib"; sourceTree = "<group>"; };
 		67D181BB13E4663700DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Resources-iPad/DailyShoot/en.lproj/RootViewController.xib"; sourceTree = "<group>"; };
 		67D181BC13E4663800DEFE0D /* AssignmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AssignmentViewController.xib; path = "Resources-iPad/DailyShoot/AssignmentViewController.xib"; sourceTree = "<group>"; };
 		67D181C213E4669300DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
-		67D181C413E469B500DEFE0D /* icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-ipad.png"; sourceTree = "<group>"; };
-		67D181C513E469B500DEFE0D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		67D181C813E473CF00DEFE0D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		67D181C913E473CF00DEFE0D /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
-		67D181CA13E473D000DEFE0D /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		67D181C413E469B500DEFE0D /* icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-ipad.png"; path = "../icon-ipad.png"; sourceTree = "<group>"; };
+		67D181C513E469B500DEFE0D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		67D181C813E473CF00DEFE0D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		67D181C913E473CF00DEFE0D /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape.png"; path = "../Default-Landscape.png"; sourceTree = "<group>"; };
+		67D181CA13E473D000DEFE0D /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait.png"; path = "../Default-Portrait.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +72,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		676E94BE13E48875006164C0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				676E94C113E488EE006164C0 /* Resources */,
+				67D1819813E1BAD700DEFE0D /* Assignments.h */,
+				67D1819913E1BAD700DEFE0D /* Assignments.m */,
+				67D1818D13E1B9A100DEFE0D /* RootViewController.h */,
+				67D1818E13E1B9A100DEFE0D /* RootViewController.m */,
+				67D1819B13E1BF9C00DEFE0D /* AssignmentViewController.h */,
+				67D1819C13E1BF9C00DEFE0D /* AssignmentViewController.m */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		676E94C013E48885006164C0 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				67D181A013E1BFB300DEFE0D /* Resources */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		676E94C113E488EE006164C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				67D1819013E1B9A100DEFE0D /* RootViewController.xib */,
+				67D1819D13E1BF9C00DEFE0D /* AssignmentViewController.xib */,
+				67D181C813E473CF00DEFE0D /* Default.png */,
+				67D181C913E473CF00DEFE0D /* Default-Landscape.png */,
+				67D181CA13E473D000DEFE0D /* Default-Portrait.png */,
+				67D181C413E469B500DEFE0D /* icon-ipad.png */,
+				67D181C513E469B500DEFE0D /* icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		67D1816913E1B9A100DEFE0D = {
 			isa = PBXGroup;
 			children = (
@@ -103,16 +139,11 @@
 		67D1817E13E1B9A100DEFE0D /* DailyShoot */ = {
 			isa = PBXGroup;
 			children = (
-				67D181A013E1BFB300DEFE0D /* Resources */,
+				676E94C013E48885006164C0 /* iPhone */,
+				676E94BE13E48875006164C0 /* Shared */,
 				67D181C013E4669200DEFE0D /* iPad */,
-				67D1819813E1BAD700DEFE0D /* Assignments.h */,
-				67D1819913E1BAD700DEFE0D /* Assignments.m */,
 				67D1818713E1B9A100DEFE0D /* DailyShootAppDelegate.h */,
 				67D1818813E1B9A100DEFE0D /* DailyShootAppDelegate.m */,
-				67D1818D13E1B9A100DEFE0D /* RootViewController.h */,
-				67D1818E13E1B9A100DEFE0D /* RootViewController.m */,
-				67D1819B13E1BF9C00DEFE0D /* AssignmentViewController.h */,
-				67D1819C13E1BF9C00DEFE0D /* AssignmentViewController.m */,
 				67D1817F13E1B9A100DEFE0D /* Supporting Files */,
 			);
 			path = DailyShoot;
@@ -132,14 +163,7 @@
 		67D181A013E1BFB300DEFE0D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				67D181C813E473CF00DEFE0D /* Default.png */,
-				67D181C913E473CF00DEFE0D /* Default-Landscape.png */,
-				67D181CA13E473D000DEFE0D /* Default-Portrait.png */,
-				67D181C413E469B500DEFE0D /* icon-ipad.png */,
-				67D181C513E469B500DEFE0D /* icon.png */,
 				67D1818A13E1B9A100DEFE0D /* MainWindow.xib */,
-				67D1819D13E1BF9C00DEFE0D /* AssignmentViewController.xib */,
-				67D1819013E1B9A100DEFE0D /* RootViewController.xib */,
 			);
 			name = Resources;
 			path = ..;
@@ -264,7 +288,6 @@
 				67D1819113E1B9A100DEFE0D /* en */,
 			);
 			name = RootViewController.xib;
-			path = DailyShoot;
 			sourceTree = "<group>";
 		};
 		67D181B813E4663700DEFE0D /* MainWindow.xib */ = {
@@ -382,6 +405,7 @@
 				67D1819713E1B9A100DEFE0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
