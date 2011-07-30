@@ -44,7 +44,6 @@
 		67D1819B13E1BF9C00DEFE0D /* AssignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignmentViewController.h; sourceTree = "<group>"; };
 		67D1819C13E1BF9C00DEFE0D /* AssignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentViewController.m; sourceTree = "<group>"; };
 		67D1819D13E1BF9C00DEFE0D /* AssignmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AssignmentViewController.xib; path = DailyShoot/AssignmentViewController.xib; sourceTree = "<group>"; };
-		67D181B713E4663500DEFE0D /* DailyShoot copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DailyShoot copy-Info.plist"; path = "/Users/cfeduke/Projects/DailyShoot/DailyShoot copy-Info.plist"; sourceTree = "<absolute>"; };
 		67D181B913E4663700DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Resources-iPad/DailyShoot/en.lproj/MainWindow.xib"; sourceTree = "<group>"; };
 		67D181BB13E4663700DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Resources-iPad/DailyShoot/en.lproj/RootViewController.xib"; sourceTree = "<group>"; };
 		67D181BC13E4663800DEFE0D /* AssignmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AssignmentViewController.xib; path = "Resources-iPad/DailyShoot/AssignmentViewController.xib"; sourceTree = "<group>"; };
@@ -74,7 +73,6 @@
 				67D1817E13E1B9A100DEFE0D /* DailyShoot */,
 				67D1817713E1B9A100DEFE0D /* Frameworks */,
 				67D1817513E1B9A100DEFE0D /* Products */,
-				67D181B713E4663500DEFE0D /* DailyShoot copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
