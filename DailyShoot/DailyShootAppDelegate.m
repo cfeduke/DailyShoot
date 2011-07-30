@@ -12,12 +12,15 @@
 
 @synthesize window = _window;
 @synthesize navigationController = _navigationController;
+@synthesize splitVC = _splitVC;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
-    // Add the navigation controller's view to the window and display.
-    self.window.rootViewController = self.navigationController;
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        [self.window addSubview:self.splitVC.view];
+    } else {
+        [self.window addSubview:self.navigationController.view];
+    }
     [self.window makeKeyAndVisible];
     return YES;
 }
@@ -65,6 +68,7 @@
 {
     [_window release];
     [_navigationController release];
+    [_splitVC release], _splitVC = nil;
     [super dealloc];
 }
 

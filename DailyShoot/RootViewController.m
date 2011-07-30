@@ -13,6 +13,7 @@
 @implementation RootViewController
 
 @synthesize assignments;
+@synthesize assignmentVC = _assignmentVC;
 
 - (void)viewDidLoad
 {
@@ -117,10 +118,15 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    AssignmentViewController *detailViewController = [[AssignmentViewController alloc] initWithNibName:@"AssignmentViewController" bundle:nil];
-    detailViewController.assignmentNumber = [self.assignments assignmentAtIndex:indexPath.row];
-    [self.navigationController pushViewController:detailViewController animated:YES];
-    [detailViewController release];
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+        self.assignmentVC.assignmentNumber = [self.assignments assignmentAtIndex:indexPath.row];
+        [self.assignmentVC loadSelectedPage];
+    } else {
+        AssignmentViewController *detailViewController = [[AssignmentViewController alloc] initWithNibName:@"AssignmentViewController" bundle:nil];
+        detailViewController.assignmentNumber = [self.assignments assignmentAtIndex:indexPath.row];
+        [self.navigationController pushViewController:detailViewController animated:YES];
+        [detailViewController release];
+    }
 }
 
 - (void)didReceiveMemoryWarning
@@ -141,6 +147,7 @@
 
 - (void)dealloc
 {
+    [_assignmentVC dealloc], _assignmentVC = nil;
     [super dealloc];
 }
 

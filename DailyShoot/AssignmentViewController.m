@@ -9,7 +9,10 @@
 #import "AssignmentViewController.h"
 
 @implementation AssignmentViewController
-@synthesize webView, assignmentNumber;
+@synthesize webView;
+@synthesize assignmentNumber;
+@synthesize rootVC = _rootVC;
+
 -(void)loadSelectedPage {
     NSString *url = [NSString stringWithFormat:@"http://dailyshoot.com/assignments/%@", self.assignmentNumber];
     [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:url]]];
@@ -52,6 +55,11 @@
 {
     // Return YES for supported orientations
     return YES;
+}
+
+-(void)dealloc {
+    [_rootVC dealloc], _rootVC = nil;
+    [super dealloc];
 }
 
 @end
