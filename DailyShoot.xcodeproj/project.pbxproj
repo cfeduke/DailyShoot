@@ -59,9 +59,6 @@
 		67D1819B13E1BF9C00DEFE0D /* AssignmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssignmentViewController.h; sourceTree = "<group>"; };
 		67D1819C13E1BF9C00DEFE0D /* AssignmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssignmentViewController.m; sourceTree = "<group>"; };
 		67D1819D13E1BF9C00DEFE0D /* AssignmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AssignmentViewController.xib; sourceTree = "<group>"; };
-		67D181B913E4663700DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Resources-iPad/DailyShoot/en.lproj/MainWindow.xib"; sourceTree = "<group>"; };
-		67D181BB13E4663700DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "Resources-iPad/DailyShoot/en.lproj/RootViewController.xib"; sourceTree = "<group>"; };
-		67D181BC13E4663800DEFE0D /* AssignmentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AssignmentViewController.xib; path = "Resources-iPad/DailyShoot/AssignmentViewController.xib"; sourceTree = "<group>"; };
 		67D181C213E4669300DEFE0D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
 		67D181C413E469B500DEFE0D /* icon-ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-ipad.png"; path = "../icon-ipad.png"; sourceTree = "<group>"; };
 		67D181C513E469B500DEFE0D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
@@ -137,7 +134,6 @@
 		67D1816913E1B9A100DEFE0D = {
 			isa = PBXGroup;
 			children = (
-				67D181B613E4663500DEFE0D /* Resources-iPad */,
 				67D1817E13E1B9A100DEFE0D /* DailyShoot */,
 				67D1817713E1B9A100DEFE0D /* Frameworks */,
 				67D1817513E1B9A100DEFE0D /* Products */,
@@ -191,16 +187,6 @@
 			);
 			name = Resources;
 			path = ..;
-			sourceTree = "<group>";
-		};
-		67D181B613E4663500DEFE0D /* Resources-iPad */ = {
-			isa = PBXGroup;
-			children = (
-				67D181B813E4663700DEFE0D /* MainWindow.xib */,
-				67D181BA13E4663700DEFE0D /* RootViewController.xib */,
-				67D181BC13E4663800DEFE0D /* AssignmentViewController.xib */,
-			);
-			name = "Resources-iPad";
 			sourceTree = "<group>";
 		};
 		67D181C013E4669200DEFE0D /* iPad */ = {
@@ -318,22 +304,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				67D1819113E1B9A100DEFE0D /* en */,
-			);
-			name = RootViewController.xib;
-			sourceTree = "<group>";
-		};
-		67D181B813E4663700DEFE0D /* MainWindow.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67D181B913E4663700DEFE0D /* en */,
-			);
-			name = MainWindow.xib;
-			sourceTree = "<group>";
-		};
-		67D181BA13E4663700DEFE0D /* RootViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67D181BB13E4663700DEFE0D /* en */,
 			);
 			name = RootViewController.xib;
 			sourceTree = "<group>";
