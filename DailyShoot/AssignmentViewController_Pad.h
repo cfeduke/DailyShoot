@@ -12,6 +12,6 @@
 @interface AssignmentViewController_Pad : AssignmentViewController <UISplitViewControllerDelegate>
 
 @property(nonatomic,retain) IBOutlet UIToolbar *toolbar;
-@property(nonatomic,retain) IBOutlet UIPopoverController *popoverContainer;
+@property(nonatomic,retain) IBOutlet UIPopoverController *popoverController;
 
 @end

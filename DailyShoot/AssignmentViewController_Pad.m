@@ -11,7 +11,7 @@
 @implementation AssignmentViewController_Pad
 
 @synthesize toolbar;
-@synthesize popoverContainer;
+@synthesize popoverController;
 
 -(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
     return YES;
@@ -23,10 +23,20 @@
     barButtonItem.title = aViewController.title;
     [self.toolbar setItems:[NSArray arrayWithObject:barButtonItem]
                   animated:YES];
-    self.popoverContainer = pc;
+    self.popoverController = pc;
 }
 -(void)dealloc {
     [toolbar release], toolbar = nil;
     [super dealloc];
+}
+-(void)loadSelectedPage {
+    [super loadSelectedPage];
+    if (self.popoverController) {
+        [self.popoverController dismissPopoverAnimated:YES];
+    }
+}
+-(void)splitViewController:(UISplitViewController *)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem {
+    [self.toolbar setItems:[NSArray array] animated:YES];
+    self.popoverController = nil;
 }
 @end
